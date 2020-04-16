@@ -38,8 +38,8 @@
                             <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
                             <!-- <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li> -->
                         @else
-                        @inject('roles', 'Spatie\Permission\Models\Role')
-                        <h1>{{ $roles }}</h1>
+                        <!-- @inject('roles', 'Spatie\Permission\Models\Role') -->
+                        <!-- <h1>{{ $roles }}</h1> -->
                             <li><a class="nav-link" href="{{ route('users.index') }}"> Users</a></li>
                             <li><a class="nav-link" href="{{ route('roles.index') }}"> Role</a></li>
                             <li><a class="nav-link" href="{{ route('products.index') }}"> Product</a></li>
