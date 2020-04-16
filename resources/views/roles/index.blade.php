@@ -9,7 +9,7 @@
         </div>
         <div class="pull-right">
         @can('role-create')
-            <a class="btn btn-success" href="{{ route('roles.create') }}"> Create New Role</a>
+            <a class="btn btn-success" href="{{ route('roles.create') }}"> Add Role</a>
             @endcan
         </div>
     </div>
@@ -51,5 +51,4 @@
 
 {!! $roles->render() !!}
 
-<p class="text-center text-primary"><small>Tutorial by ItSolutionStuff.com</small></p>
 @endsection
